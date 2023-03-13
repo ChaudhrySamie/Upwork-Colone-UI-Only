@@ -1,0 +1,290 @@
+
+*{
+    box-sizing: border-box;
+}
+.items{
+    margin: 15px 0px 5px 20px;
+
+}
+hr{
+    width: 90%;
+    margin: 3px 40px 0px 20px;
+}
+
+li{
+    display: inline-block;
+}
+ .container{
+    display: inline-flex;
+    height: 40px;
+    width: 240px;
+    background: #f2f2f2;
+    border-radius: 30px;
+    border: 2px solid lightgray;
+    margin-left: 100px;
+    }
+    #typesearch{
+        margin: 5px 3px 2px 20px;
+        padding: 0px 0px 0px 10px;
+        height: 30px;
+        width: 140px;
+        border: 0px;
+        background-color: transparent;
+        outline: none;
+    }
+    #iconofsearch{
+        margin: 04px 3px 35px 30px;
+        height: 20px;
+        width: 100px;
+        border: 0px;
+        outline: none;
+        cursor: pointer;
+    }
+    .logo{
+        
+        width: 100px;
+        height: 30px;
+        margin-bottom: 0px
+    }
+    .items li{
+        margin-left: 20px;
+    }
+    .items{
+        margin-left: 9px;
+        padding: 0px 10px 0px 10px;
+        font-size: 15px;
+        font-weight: 10px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        color: rgb(131, 130, 130);
+        font-family: 'Cairo', sans-serif;
+        font-family: 'Dosis', sans-serif;
+        font-family: 'Karla', sans-serif;
+        font-family: 'Manrope', sans-serif;
+    }
+    .items select{
+        border: none;
+        outline: none;
+    }
+    .nontextdecoration{
+        text-decoration: none;
+        color: rgb(131, 130, 130);
+        font-family: 'Cairo', sans-serif;
+        font-family: 'Dosis', sans-serif;
+        font-family: 'Karla', sans-serif;
+        font-family: 'Manrope', sans-serif;
+    }
+    .items :hover{
+        color: green;
+    }
+    .loginbutton{
+        text-decoration: none;
+        color: rgb(131, 130, 130);
+        font-size: 20px;
+        cursor: pointer;
+        font-family: 'Cairo', sans-serif;
+        font-family: 'Dosis', sans-serif;
+        font-family: 'Karla', sans-serif;
+        font-family: 'Manrope', sans-serif;
+    }
+    .loginbutton:hover{
+        color: green;
+        border: 1px solid green;
+        border-radius: 10px;
+    }
+    .singupbutton{
+        text-decoration: none;
+        color: #f2f2f2;
+        font-size: 20px;
+        background-color: green;
+        border-radius: 10px;
+        font-family: 'Cairo', sans-serif;
+        font-family: 'Dosis', sans-serif;
+        font-family: 'Karla', sans-serif;
+        font-family: 'Manrope', sans-serif;
+    }
+    .singupbutton:hover{
+        background-color: white;
+        color: green;
+    }
+    nav.sticky{
+        background-color: white;
+        width: 80%;
+        margin: 10px 0px 0px 200px;
+        position: sticky;
+        top: 0px;
+    }
+    main{
+        margin: 0px 0px 0px 230px;
+        background-image: url(./dada.png);
+        background-repeat: no-repeat;
+        background-size: 1100px 530px;
+        background-position: 30px 1100px;
+        }
+    #small{
+            width: 20px;
+    }
+    .headingf{
+        color: green;
+        font-size: 60px;
+    }
+    .paraf{
+        color: rgb(138, 138, 138);
+        font-size: 30px;
+    }
+    
+    .findtalent a{
+        padding: 9px 6px 5px 7px;
+        color: #f2f2f2;
+        background-color: green;
+        border-radius: 15px;
+        font-size: 20px;
+        text-decoration: none;
+        font-family: 'Cairo', sans-serif;
+        font-family: 'Dosis', sans-serif;
+        font-family: 'Karla', sans-serif;
+        font-family: 'Manrope', sans-serif;
+    }
+    .findwork a{
+        padding: 7px 6px 5px 7px;
+        background-color: white;
+        border: 1px solid green;
+        border-radius: 15px;
+        color: green;
+        font-size: 20px;
+        text-decoration: none;
+        font-family: 'Cairo', sans-serif;
+        font-family: 'Dosis', sans-serif;
+        font-family: 'Karla', sans-serif;
+        font-family: 'Manrope', sans-serif;
+    }
+    .findtalent :hover{
+       color: green;
+       border: 1px solid green;
+       background-color: transparent;
+    }
+    .findwork :hover{
+        /* background-color: ; */
+        color: green;
+        background: #d8d5d5
+    }
+    .trust{
+        color: rgb(138, 138, 138);
+        font-size: 20px;
+    }
+    body{
+        background-image: url("./global\ man\ logo.png");
+        background-repeat: no-repeat;
+        background-size: 500px 500px;
+        background-position: 850px 150px;
+    }
+    .browse{
+        color: black;
+        font-size: 45px;
+    }
+    .trust a{
+        text-decoration: none;
+        color: green;
+    }
+    .trust a:hover{
+        text-decoration: underline;
+    }
+    .dada{
+        display: inline-flex;
+        padding: 50px;
+        margin-top: 400px;
+    }
+    .dada a{
+        width: 345px;
+    }
+    .company{
+        background-color: green;
+        border-radius: 20px;
+        color: white;
+        text-decoration: none;
+        font-size: 25px;
+        font-family: 'Cairo', sans-serif;
+        font-family: 'Dosis', sans-serif;
+        font-family: 'Karla', sans-serif;
+        font-family: 'Manrope', sans-serif;
+        padding: 6px 10px 10px 10px;
+    }
+    .company:hover{
+        background-color: white;
+        color: green;
+        
+    }
+    .software{
+        background-color: green;
+        border-radius: 20px;
+        color: white;
+        text-decoration: none;
+        font-size: 25px;
+        font-family: 'Cairo', sans-serif;
+        font-family: 'Dosis', sans-serif;
+        font-family: 'Karla', sans-serif;
+        font-family: 'Manrope', sans-serif;
+        padding: 6px 10px 10px 10px;
+    }
+    .software:hover{
+        background-color: white;
+        color: green;
+        
+    }
+    .saad{
+        background-color: green;
+        border-radius: 20px;
+        color: white;
+        text-decoration: none;
+        font-size: 25px;
+        font-family: 'Cairo', sans-serif;
+        font-family: 'Dosis', sans-serif;
+        font-family: 'Karla', sans-serif;
+        font-family: 'Manrope', sans-serif;
+        padding: 6px 10px 10px 10px;
+
+    }
+    .saad:hover{
+        background-color: white;
+        color: green;
+        
+    }
+    .whybussin{
+        width: 85%;
+        margin-left: 20px;
+    }
+    .brands{
+        font-size: 60px;
+        margin-left: 40px;
+    }
+    .nadaq{
+        margin-left: 160px;
+    }
+    footer {
+        background-color: green;
+        overflow: hidden;
+        width: 80%;
+        margin-left: 200px;
+    }
+    footer a {
+        text-decoration: none;
+        padding: 20px;
+        text-align: center;
+        float: left;
+        color: white;
+        font-family: 'Cairo', sans-serif;
+        font-family: 'Dosis', sans-serif;
+        font-family: 'Karla', sans-serif;
+        font-family: 'Manrope', sans-serif;
+    }
+    footer a:hover{
+        text-decoration: underline;
+    }
+    
+
+    
+
+
+        
+    
